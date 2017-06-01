@@ -1,5 +1,5 @@
 build_script:
-  - cmd: build.cmd
+  - cmd: build.cmd Release
 version: '1.0.{build}'
 artifacts:
   - path: '*.nupkg'
