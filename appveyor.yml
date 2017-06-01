@@ -2,7 +2,7 @@ build_script:
   - cmd: build.cmd Release
 version: '1.0.{build}'
 artifacts:
-  - path: '*.nupkg'
+  - path: 'deploy/*.nupkg'
     name: FsDynamics
 assembly_info:
   patch: true
