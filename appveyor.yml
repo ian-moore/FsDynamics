@@ -1,8 +1,12 @@
 build_script:
   - cmd: build.cmd
 version: '1.0.{build}'
+artifacts:
+  - path: '*.nupkg'
+    name: FsDynamics
 assembly_info:
   patch: true
   file: AssemblyInfo.fs
   assembly_version: '{version}'
   assembly_file_version: '{version}'
+  assembly_informational_version: '{version}'

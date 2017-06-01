@@ -1,0 +1,5 @@
+type project
+id scarbor0.FsDynamics
+projectUrl https://github.com/ian-moore/FsDynamics
+authors Ian Moore
+tags FSharp Dynamics CRM

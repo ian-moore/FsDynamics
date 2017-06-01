@@ -1,4 +1,4 @@
 source https://www.nuget.org/api/v2
 nuget FAKE
-nuget FSharp.Core
-nuget Microsoft.CrmSdk.CoreAssemblies
+nuget FSharp.Core >= 4.1
+nuget Microsoft.CrmSdk.CoreAssemblies >= 8.2
