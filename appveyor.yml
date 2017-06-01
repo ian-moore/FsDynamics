@@ -3,7 +3,6 @@ build_script:
 version: '1.0.{build}'
 assembly_info:
   patch: true
-  file: src/AssemblyInfo.cs
+  file: AssemblyInfo.fs
   assembly_version: '{version}'
   assembly_file_version: '{version}'
-  assembly_informational_version: '{version}-rc1'
