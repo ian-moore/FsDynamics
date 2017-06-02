@@ -1,6 +1,7 @@
+version: '1.0.{build}'
+skip_non_tags: true
 build_script:
   - cmd: build.cmd Release
-version: '1.0.{build}'
 artifacts:
   - path: 'deploy/*.nupkg'
     name: FsDynamics
